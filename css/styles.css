@@ -120,6 +120,11 @@ li.active a, li a:hover{
 
 /*/ projects /*/
 
+.project-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .item img {
     width: 100%;
     height: auto;
@@ -141,5 +146,22 @@ li.active a, li a:hover{
 
     .footer-container a {
         font-size: 2.5em;
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border: 5px solid #dbaf69;
+    }
+
+    .item {
+        flex: 1;
+        text-align: center;
+        border: 2px solid #dbaf69;
+    }
+
+    .item img {
+        height: 300px;
     }
 }
