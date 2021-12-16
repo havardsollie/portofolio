@@ -1,0 +1,145 @@
+body {
+    font-family: 'Genos', sans-serif;
+    font-family: 'Saira Condensed', sans-serif;;
+}
+
+main {
+    margin: 0 auto;
+}
+
+h1, nav {
+    font-family: 'Comfortaa', cursive;
+}
+
+h2 {
+    color: #dbaf69;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*/ header /*/
+
+header{
+    background: #404347;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.logo {
+    color: white;
+    font-size: 10px;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a{
+    padding: 20px;
+}
+
+
+li  a{
+    color: #ffff;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+li.active a, li a:hover{
+    color: #dbaf69;
+}
+
+/*/ footer /*/
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #404347;
+    margin-top: 50px;
+}
+
+.footer-container a {
+    font-size: 1.5em;
+    color: #ffff;
+}
+
+#twitter:hover {
+    color: rgb(98, 98, 198);
+}
+
+#facebook:hover {
+    color: rgb(15, 15, 178);
+}
+
+#insta:hover {
+    color: rgb(214, 72, 136);
+}
+
+/*/ home /*/
+
+.portfolio-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5px 0;
+}
+
+.card {
+    flex: 1;
+    text-align: center;
+    max-width: 300px;
+    background-color: #dbaf69;
+}
+
+.info {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+}
+
+/*/ projects /*/
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1000px) {
+    header {
+        justify-content: space-evenly;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .info p {
+        max-width: 500px;
+        font-size: 1.5em;
+    }
+
+    .footer-container a {
+        font-size: 2.5em;
+    }
+}
